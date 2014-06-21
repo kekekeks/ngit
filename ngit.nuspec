@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>NGit</id>
+        <version>2.1.0</version>
+        <title>NGit</title>
+        <authors>Mono Team</authors>
+        <owners>Nikita Tsukanov &lt;nikita.d.tsukanov@gmail.com&gt;</owners>
+        <projectUrl>https://github.com/kekekeks/ngit/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>NGit is a port of JGit to C#. This port is generated semi-automatically using Sharpen, a Java-to-C# conversion utility.</description>
+        <releaseNotes />
+        <copyright>Copyright 2014</copyright>
+        <tags>NGit</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.0">
+                <dependency id="Mono.Security" version="3.2.3.0" />
+                <dependency id="ICSharpCode.SharpZipLib.dll" version="0.85.4.369" />
+            </group>
+        </dependencies>
+    </metadata>
+</package>
